@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.asiainfo.bmob.activity.BmobActivity">
+
+    <EditText
+            android:hint="请输入用户名"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_name"
+            />
+
+    <EditText
+            android:lines="5"
+            android:hint="问题反馈"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_feadback"
+            />
+    <EditText
+            android:layout_marginTop="15dp"
+            android:hint="查询人名"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_new_name"
+            />
+
+    <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/commit"
+            android:text="提交"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/query"
+            android:text="查询"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <Button
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/query_FeadBack"
+            android:text="查询人名"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/query_push"
+            android:text="Bmob消息推送"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
